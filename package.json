@@ -1,0 +1,19 @@
+{
+  "name": "outdoor_explorer",
+  "version": "1.0.0",
+  "description": "An interactive mapping application for outdoor activities visualization, featuring: - Interactive 3D terrain visualization - Trail mapping and elevation profiles - Multiple map styles for different activities - Hillshading and terrain analysis # outdoor_explorer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/backend/server.js",
+    "start": "node src/backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "maplibre-gl": "^5.0.1",
+    "nodemon": "^3.1.9"
+  }
+}
