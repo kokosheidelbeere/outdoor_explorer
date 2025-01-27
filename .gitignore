@@ -23,3 +23,5 @@ dist/
 .DS_Store
 Thumbs.db
 EOL
+
+src/frontend/config.js
